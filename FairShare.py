@@ -1,7 +1,7 @@
-print("FairShare: This program lets you split the bill, calculate the tip and split it as well.")
-print("->-> Made by Edro ;) <-<-\n")
+print("FairShare: This program lets you split the bill, calculate the tip, and split it as well.")
+print("->-> Made by Edro ;) <-<-")
 
-bill = float(input("> How much is the bill?: $"))
+bill = float(input("\n> How much is the bill?: $"))
 bill_contributors = int(input("> How many people are going to contribute to the bill: "))
 tip_contributors = 0
 if input("> Would you like to tip? y or n: ") == "y":
@@ -18,3 +18,4 @@ elif tip_contributors != bill_contributors:
     print(f"Each tipper should pay: ${bill_split + tip_split}")
 else:
     print(f"\nEach person should pay: ${bill_split + tip_split}")
+
