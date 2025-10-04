@@ -20,3 +20,4 @@ else:
     print(f"\nEach person should pay: ${bill_split + tip_split}")
 
 
+
